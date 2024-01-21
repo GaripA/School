@@ -1,0 +1,27 @@
+﻿<!-- AllCoursesPage.xaml -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AllCoursesPage"
+             Title="All Courses">
+
+    <StackLayout>
+        <Button Text="Add Course" Clicked="AddCourse_Clicked" />
+        <CollectionView x:Name="coursesCollection"
+                        ItemsSource="{Binding Courses}"
+                        Margin="20">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Spacing="5">
+                        <Label Text="{Binding CourseName}" FontSize="18" />
+                        <Button Text="Supprimer" Clicked="Supprimer_Clicked" CommandParameter="{Binding .}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

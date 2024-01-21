@@ -1,0 +1,107 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Notes
+build_property.ProjectDir = C:\Users\PC\Downloads\maui-samples-main\maui-samples-main\8.0\Tutorials\CreateNetMauiApp\Notes\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/ActivityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.ActivityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ActivityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ActivityPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AddEvalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AddEvalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddEvalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddEvalPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AllActivitiesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllActivitiesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllActivitiesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllActivitiesPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AllCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllCoursesPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AllStudentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllStudentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllStudentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllStudentsPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/AllTeachersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllTeachersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AllTeachersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AllTeachersPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/CoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.CoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursePage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/StudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.StudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentPage.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/StudentStat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.StudentStat.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StudentStat.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StudentStat.xaml
+
+[C:/Users/PC/Downloads/maui-samples-main/maui-samples-main/8.0/Tutorials/CreateNetMauiApp/Notes/Views/TeacherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.TeacherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TeacherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TeacherPage.xaml

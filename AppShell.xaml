@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Notes.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:Notes.Views"
+    Shell.FlyoutBehavior="Disabled"> 
+
+    <TabBar>
+        <ShellContent
+            Title="Cours"
+            ContentTemplate="{DataTemplate views:AllCoursesPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+        <ShellContent
+            Title="Statistiques"
+            ContentTemplate="{DataTemplate views:StudentStat}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+        <ShellContent
+            Title="Teacher"
+            ContentTemplate="{DataTemplate views:AllTeachersPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+        
+        <ShellContent
+            Title="All Activities"
+            ContentTemplate="{DataTemplate views:AllActivitiesPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+        <ShellContent
+            Title="Student"
+            ContentTemplate="{DataTemplate views:AllStudentsPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" />
+        
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate views:AboutPage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+        
+        
+    </TabBar>
+
+</Shell>

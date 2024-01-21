@@ -1,0 +1,27 @@
+﻿<!-- AllActivitiesPage.xaml -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AllActivitiesPage"
+             Title="All Activities">
+
+    <StackLayout>
+        <Button Text="Add Activity" Clicked="AddActivity_Clicked" />
+        <CollectionView x:Name="activitiesCollection"
+                        ItemsSource="{Binding Activities}"
+                        Margin="20">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Spacing="5">
+                        <Label Text="{Binding ActivityName}" FontSize="18" />
+                        <Button Text="Supprimer" Clicked="Supprimer_Clicked" CommandParameter="{Binding .}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

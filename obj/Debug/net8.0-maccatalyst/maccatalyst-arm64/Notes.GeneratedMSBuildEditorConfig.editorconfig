@@ -1,0 +1,101 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Notes
+build_property.ProjectDir = /Users/nabilhajchaib/Desktop/MAUIproject/Notes/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AboutPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/ActivityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.ActivityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ActivityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ActivityPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AddEvalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AddEvalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AddEvalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AddEvalPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AllActivitiesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllActivitiesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AllActivitiesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AllActivitiesPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AllCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AllCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AllCoursesPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AllStudentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllStudentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AllStudentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AllStudentsPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/AllTeachersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.AllTeachersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AllTeachersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AllTeachersPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/CoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.CoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/CoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/CoursePage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/StudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.StudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/StudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/StudentPage.xaml
+
+[/Users/nabilhajchaib/Desktop/MAUIproject/Notes/Views/TeacherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notes.Views.TeacherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/TeacherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/TeacherPage.xaml

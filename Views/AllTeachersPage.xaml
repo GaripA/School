@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AllTeachersPage"
+             Title="All Teachers">
+    <StackLayout>
+        <Button Text="Add Teacher" Clicked="AddTeacher_Clicked" />
+
+        <CollectionView x:Name="teachersCollection"
+                        ItemsSource="{Binding Teachers}"
+                        Margin="20">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Column="0" Orientation="Horizontal" Spacing="5">
+                            <Label Text="{Binding Nom}" FontSize="18" />
+                            <Label Text="{Binding Prenom}" FontSize="18" />
+                        </StackLayout>
+
+                        <Button Text="Supprimer" Clicked="Supprimer_Clicked" CommandParameter="{Binding .}" Grid.Column="1" />
+                        <Button Text="Afficher" Clicked="Afficher_Clicked" CommandParameter="{Binding .}" Grid.Column="2" />
+                        <Button Text="Détails" Clicked="Details_Clicked" CommandParameter="{Binding .}" Grid.Column="3" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label x:Name="activitiesLabel" Text="" Margin="20"/>
+    </StackLayout>
+</ContentPage>

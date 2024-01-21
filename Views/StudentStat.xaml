@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.StudentStat">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Statistiques des étudiants par classe" FontSize="Title" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
+            
+            <!-- Ajoutez un Label pour afficher les statistiques -->
+            <Label x:Name="ClassStatisticsLabel" FontSize="Medium" Margin="10" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
